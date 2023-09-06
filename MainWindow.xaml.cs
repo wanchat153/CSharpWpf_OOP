@@ -28,13 +28,18 @@ namespace CSharpWpf_OOP
             //customer.LastName = "Saenjaingam";
             //MessageBox.Show(customer.Name+customer.LastName);
 
-            Cat cat = new Cat();
+            //Cat cat = new Cat();
             //MessageBox.Show(cat.cry());
             //Inheritance Cat from Animal
             //MessageBox.Show(cat.breath());
 
             //override from cat
-            MessageBox.Show(cat.move());
+            //MessageBox.Show(cat.move());
+
+            Square square = new Square();
+            square.Side = 5;
+            MessageBox.Show(square.Area().ToString());
+
         }
     }
 }
