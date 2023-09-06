@@ -14,6 +14,7 @@ namespace CSharpWpf_OOP
         string email = "";
 
         //Edit>>Refactor>>Encapsulation (Ctrl+R+E)
+        //Get Set to MainWindow.xaml.cs
         public string Name { get => name; set => name = value; }
         public string LastName { get => lastName; set => lastName = value; }
     }

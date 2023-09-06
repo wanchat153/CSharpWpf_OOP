@@ -23,10 +23,15 @@ namespace CSharpWpf_OOP
         public MainWindow()
         {
             InitializeComponent();
-            Customer customer = new Customer();
-            customer.Name = "Wanchat";
-            customer.LastName = "Saenjaingam";
-            MessageBox.Show(customer.Name+customer.LastName);
+            //Customer customer = new Customer();
+            //customer.Name = "Wanchat";
+            //customer.LastName = "Saenjaingam";
+            //MessageBox.Show(customer.Name+customer.LastName);
+
+            Cat cat = new Cat();
+            MessageBox.Show(cat.cry());
+            //Inheritance Cat from Animal
+            MessageBox.Show(cat.breath());
         }
     }
 }
