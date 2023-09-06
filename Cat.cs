@@ -19,6 +19,7 @@ namespace CSharpWpf_OOP
         }
 
         //override move from main Animal
+        //Polymorphism Inheritance Method != Method
         public string move()
         {
             return "Super Runn!";
