@@ -17,5 +17,11 @@ namespace CSharpWpf_OOP
         {
             return "Meaowww!";
         }
+
+        //override move from main Animal
+        public string move()
+        {
+            return "Super Runn!";
+        }
     }
 }

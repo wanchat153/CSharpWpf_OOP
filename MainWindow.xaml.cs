@@ -29,9 +29,12 @@ namespace CSharpWpf_OOP
             //MessageBox.Show(customer.Name+customer.LastName);
 
             Cat cat = new Cat();
-            MessageBox.Show(cat.cry());
+            //MessageBox.Show(cat.cry());
             //Inheritance Cat from Animal
-            MessageBox.Show(cat.breath());
+            //MessageBox.Show(cat.breath());
+
+            //override from cat
+            MessageBox.Show(cat.move());
         }
     }
 }
