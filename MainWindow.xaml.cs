@@ -36,14 +36,27 @@ namespace CSharpWpf_OOP
             //override from cat
             //MessageBox.Show(cat.move());
 
-            //Instance = square, square2
-            Square square = new Square();
-            Square square2 = new Square();
-            square.Side = 5;
-            square2.Side = 10;
-            MessageBox.Show(square.Area().ToString());
-            MessageBox.Show(square2.Area().ToString());
+            ////Instance = square, square2
+            //Square square = new Square();
+            //Square square2 = new Square();
+            //square.Side = 5;
+            //square2.Side = 10;
+            //MessageBox.Show(square.Area().ToString());
+            //MessageBox.Show(square2.Area().ToString());
 
+            sayHello();
+            sayHello("Wanchat");
+
+        }
+
+        //Overload sayHello
+        private void sayHello()
+        {
+            MessageBox.Show("Hello World");
+        }
+        private void sayHello(string name)
+        {
+            MessageBox.Show("Hello " + name);
         }
     }
 }
