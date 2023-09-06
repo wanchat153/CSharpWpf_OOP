@@ -24,6 +24,9 @@ namespace CSharpWpf_OOP
         {
             InitializeComponent();
             Customer customer = new Customer();
+            customer.Name = "Wanchat";
+            customer.LastName = "Saenjaingam";
+            MessageBox.Show(customer.Name+customer.LastName);
         }
     }
 }

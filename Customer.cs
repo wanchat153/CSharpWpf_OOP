@@ -12,5 +12,9 @@ namespace CSharpWpf_OOP
         string lastName = "";
         string address = "";
         string email = "";
+
+        //Edit>>Refactor>>Encapsulation (Ctrl+R+E)
+        public string Name { get => name; set => name = value; }
+        public string LastName { get => lastName; set => lastName = value; }
     }
 }
