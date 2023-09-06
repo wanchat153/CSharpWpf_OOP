@@ -44,19 +44,25 @@ namespace CSharpWpf_OOP
             //MessageBox.Show(square.Area().ToString());
             //MessageBox.Show(square2.Area().ToString());
 
-            sayHello();
-            sayHello("Wanchat");
+            //sayHello();
+            //sayHello("Wanchat");
 
         }
 
-        //Overload sayHello
-        private void sayHello()
+        ////Overload sayHello
+        //private void sayHello()
+        //{
+        //    MessageBox.Show("Hello World");
+        //}
+        //private void sayHello(string name)
+        //{
+        //    MessageBox.Show("Hello " + name);
+        //}
+
+        private void okBtn_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Hello World");
-        }
-        private void sayHello(string name)
-        {
-            MessageBox.Show("Hello " + name);
+            Customer customer = new Customer();
+            Customer customer2 = new Customer("Wanchat","Saenjaingam");
         }
     }
 }
