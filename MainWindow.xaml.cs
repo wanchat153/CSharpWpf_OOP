@@ -23,6 +23,7 @@ namespace CSharpWpf_OOP
         public MainWindow()
         {
             InitializeComponent();
+            Customer customer = new Customer();
         }
     }
 }
