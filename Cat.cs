@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 namespace CSharpWpf_OOP
 {
     //Inheritance Cat from main Animal
+    //Cat "implements" the Animal interface
     internal class Cat : Animal
     {
         string name;

@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 namespace CSharpWpf_OOP
 {
     //Main class Animal
+    //Interface
     internal class Animal
     {
         int sizeOfAnimal = 0;
